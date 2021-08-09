@@ -36,9 +36,9 @@ int main() {
     // sayBook.printBookDetails();
 
     BankAccount myBankAccount("tom myself", 10);
-    BankAccount poorPerson("homeless", 1);
+    BankAccount richPerson("musk", 10000000);
 
-    poorPerson.deposit(0);
+    richPerson.deposit(0);
     cout << "here is your new balance: " << poorPerson.getBalance() << endl;
     poorPerson.withdraw(200);
     return 0;
