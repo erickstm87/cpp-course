@@ -17,8 +17,6 @@ class House {
     private:
       int numStories;
       string color;
-      bool sod;
-      string grown;
 };
 
 #endif
