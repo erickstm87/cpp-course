@@ -8,6 +8,8 @@
 #include "../header/Rectangle.h"
 #include "../header/Book.h"
 #include "../header/BankAccount.h"
+#include "../header/Pizza.h"
+#include "../header/Circle.h"
 
 using namespace std;
 
@@ -35,11 +37,26 @@ int main() {
     // harukiBook.printBookDetails();
     // sayBook.printBookDetails();
 
-    BankAccount myBankAccount("tom myself", 10);
-    BankAccount richPerson("musk", 10000000);
+    // BankAccount myBankAccount("tom myself", 10);
+    // BankAccount richPerson("musk", 10000000);
 
-    richPerson.deposit(0);
-    cout << "here is your new balance: " << poorPerson.getBalance() << endl;
-    poorPerson.withdraw(200);
+    // richPerson.deposit(0);
+    // cout << "here is your new balance: " << richPerson.getBalance() << endl;
+    // poorPerson.withdraw(200);
+
+    // Pizza myPizza("custom", 20, 16);
+    // myPizza.getCost();
+    // myPizza.addTopping("jalapeno");
+    // myPizza.addTopping("bacon");
+    // myPizza.addTopping("pineapple");
+    // myPizza.printToppings();
+    // cout << "the pizza costs $" << myPizza.getCost() << " dollars" << endl;
+    
+    Circle myCircle(3);
+    myCircle.setRadius(3);
+    cout << "the radius of the circle is: " << myCircle.getRadius() << endl;
+    cout << "the area of the circle is: " << myCircle.getArea() << endl;
     return 0;
+ 
+
 }
